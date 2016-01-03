@@ -35,7 +35,8 @@ class GameScene: SKScene {
     
     override func didMoveToView(view: SKView) {
 
-        terrainNode = buildTerrainNode(1.0)
+        terrainNode = buildTerrainNode(self.frame.height/2)
+        self.addChild(terrainNode)
         
     }
     
