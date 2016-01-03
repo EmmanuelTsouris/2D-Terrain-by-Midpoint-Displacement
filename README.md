@@ -1,4 +1,4 @@
-# 2D Terrain by Midpoint Displacement
+# 2D Terrain by Midpoint Displacement in SWIFT
 
 I was looking at different methods for generating 2D terrain and came accross this article by Loktar:
 
