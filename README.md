@@ -13,3 +13,6 @@ I rewrote the JavaScript sample from the article in SWIFT (which was suprisingly
 
 The app generates an array of points representing terrain. We then use the points to make a path, and pass it into a SKShapeNode. Clicking on the screen will generate a new node.
 
+## Performance Considerations
+
+I tested the ShapeNode with a physics body and it performed pretty poorly, a better option to use this in a game where physics are needed, might be to convert it to a bitmap and use that instead.
