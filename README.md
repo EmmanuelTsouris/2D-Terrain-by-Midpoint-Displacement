@@ -15,4 +15,4 @@ The app generates an array of points representing terrain. We then use the point
 
 ## Performance Considerations
 
-I tested the ShapeNode with a physics body and it performed pretty poorly, a better option to use this in a game where physics are needed, might be to convert it to a bitmap and use that instead.
+I tested the SKShapeNode with a physics body and it performed pretty poorly, a better option to use this in a game where physics are needed, might be to convert it to a bitmap and use that instead.
