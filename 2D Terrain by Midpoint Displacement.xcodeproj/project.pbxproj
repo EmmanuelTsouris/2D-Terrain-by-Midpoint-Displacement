@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		14698A121C39CB22003C78D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14698A111C39CB22003C78D8 /* AppDelegate.swift */; };
 		14698A141C39CB22003C78D8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14698A131C39CB22003C78D8 /* GameScene.swift */; };
-		14698A161C39CB22003C78D8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14698A151C39CB22003C78D8 /* GameScene.sks */; };
 		14698A181C39CB22003C78D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14698A171C39CB22003C78D8 /* Assets.xcassets */; };
 		14698A1B1C39CB22003C78D8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14698A191C39CB22003C78D8 /* MainMenu.xib */; };
+		14698A231C39CB79003C78D8 /* TerrainGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14698A221C39CB79003C78D8 /* TerrainGenerator.swift */; };
+		14698A271C39D517003C78D8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 14698A261C39D517003C78D8 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		14698A0E1C39CB22003C78D8 /* 2D Terrain by Midpoint Displacement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2D Terrain by Midpoint Displacement.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14698A111C39CB22003C78D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14698A131C39CB22003C78D8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		14698A151C39CB22003C78D8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		14698A171C39CB22003C78D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14698A1A1C39CB22003C78D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		14698A1C1C39CB22003C78D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14698A221C39CB79003C78D8 /* TerrainGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerrainGenerator.swift; sourceTree = "<group>"; };
+		14698A261C39D517003C78D8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				14698A111C39CB22003C78D8 /* AppDelegate.swift */,
+				14698A221C39CB79003C78D8 /* TerrainGenerator.swift */,
 				14698A131C39CB22003C78D8 /* GameScene.swift */,
-				14698A151C39CB22003C78D8 /* GameScene.sks */,
+				14698A261C39D517003C78D8 /* GameScene.sks */,
 				14698A171C39CB22003C78D8 /* Assets.xcassets */,
 				14698A191C39CB22003C78D8 /* MainMenu.xib */,
 				14698A1C1C39CB22003C78D8 /* Info.plist */,
@@ -123,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14698A181C39CB22003C78D8 /* Assets.xcassets in Resources */,
-				14698A161C39CB22003C78D8 /* GameScene.sks in Resources */,
+				14698A271C39D517003C78D8 /* GameScene.sks in Resources */,
 				14698A1B1C39CB22003C78D8 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +140,7 @@
 			files = (
 				14698A141C39CB22003C78D8 /* GameScene.swift in Sources */,
 				14698A121C39CB22003C78D8 /* AppDelegate.swift in Sources */,
+				14698A231C39CB79003C78D8 /* TerrainGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
