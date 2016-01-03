@@ -11,5 +11,5 @@ I rewrote the JavaScript sample from the article in SWIFT (which was suprisingly
 
 ## What Does this Do?
 
-The app generates an array of points representing the terrain. We then use the path to create an SKShapeNode. Clicking on the screen will generate a new node.
+The app generates an array of points representing terrain. We then use the points to make a path, and pass it into a SKShapeNode. Clicking on the screen will generate a new node.
 
