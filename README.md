@@ -1,7 +1,7 @@
 # 2D Terrain by Midpoint Displacement in SWIFT
 SWIFT 2.x, Xcode 7.x, Mac OS Sample
 
-## The Article
+## Source Article
 I was looking at different methods for generating 2D terrain and came accross this article by Loktar:
 
 Simple 2d Terrain With Midpoint Displacement
